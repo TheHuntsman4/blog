@@ -14,7 +14,5 @@ def posts(request):
     context={
         'posts':posts,
     }
-
-    
     return HttpResponse(template.render(context,request))
 
