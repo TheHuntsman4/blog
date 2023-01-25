@@ -8,9 +8,9 @@ from django.shortcuts import redirect
 from django.http import HttpResponse
 # Create your views here.
 
-def home(request):
+def posts(request):
     posts=Post.objects.all().values()
-    template=loader.get_template("blog/home.html")
+    template=loader.get_template("blog/post.html")
     context={
         'posts':posts,
     }
