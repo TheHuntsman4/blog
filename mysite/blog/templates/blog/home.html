@@ -4,9 +4,14 @@
         <title>ANIKETH'S BLOG</title>
         <link rel="stylesheet" href="/static/css/blog.css">
     </HEAD>
-    <body >
+    <body>
         
-        something
+        {% for x in posts %}
+            {{x.title}}
+            <br>{{x.content}}
+        {% endfor %}
+        
+        
        
     </body>
 </html>
