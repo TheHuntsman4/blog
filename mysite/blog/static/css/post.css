@@ -1,0 +1,33 @@
+body{
+    /* background styling */
+    
+    background-image:url("zeno.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* font styling */
+    color: aliceblue;
+    font-size: 25px;
+
+    /* text arrangement*/
+    text-align: justify;
+    /* text-align: justify; */
+
+}
+.Header{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 100px;
+
+}
+
+.content{
+    padding-left: 30px;
+}
+
+.source{
+    font-size: 15px ;
+}

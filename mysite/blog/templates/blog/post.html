@@ -3,22 +3,24 @@
 <html>
     <HEAD>
         <title>POSTS</title>
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link rel="stylesheet" href="{% static 'css/post.css' %}">
     </HEAD>
     <body>
-        <div class="img">
+
+        <div class="Header"">
+            BLOG
+        </div>
         
+        <br>
         {% for x in posts %}
         <div class="title">
            <u> {{x.title}}</u>
-        </div>
             <br>
             <div class = "content">
             {{x.content}}
             </div>
-            <div class="source">     
-            {{x.source}}
-            </div>
+            <br>
+            
         {% endfor %}
         
         

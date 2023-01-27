@@ -5,9 +5,9 @@
     padding: 20px 20px 20px 40px;
 }
 
-body{
+.img1{
  
- background-image: url(m_a.jpg);
+ background-image: url(M_A.png);
  background-size: cover;
 }
 
@@ -30,7 +30,17 @@ body{
 }
 
 
+p{
+   display: block;
+    margin-block-start: 100px;
+    margin-block-end: 100px;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
 
-.img{
-   
+
 } 
+
+.img2{
+    background-image: url('zeno.jpeg') ;
+    background-size: cover;
+}
