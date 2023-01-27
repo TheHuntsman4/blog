@@ -9,8 +9,16 @@
         <div class="img">
         
         {% for x in posts %}
-            {{x.title}}
-            <br>{{x.content}}
+        <div class="title">
+           <u> {{x.title}}</u>
+        </div>
+            <br>
+            <div class = "content">
+            {{x.content}}
+            </div>
+            <div class="source">     
+            {{x.source}}
+            </div>
         {% endfor %}
         
         

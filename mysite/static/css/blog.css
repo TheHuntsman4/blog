@@ -1,0 +1,36 @@
+.page-header {
+    background-color: #c2812d;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+}
+
+body{
+ 
+ background-image: url(m_a.jpg);
+ background-size: cover;
+}
+
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+
+.content{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-left: 50px;
+}
+
+.source{
+
+    padding-left: 200px;
+}
+
+
+
+.img{
+   
+} 

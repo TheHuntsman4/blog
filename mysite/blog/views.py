@@ -1,4 +1,4 @@
-
+from .forms import PostForm
 
 from django.template import loader
 from django.utils import timezone
@@ -10,9 +10,14 @@ from django.http import HttpResponse
 
 def posts(request):
     posts=Post.objects.all().values()
-    template=loader.get_template("blog/post.html")
-    context={
-        'posts':posts,
-    }
-    return HttpResponse(template.render(context,request))
+    return render(request,'blog/post.html',{'posts':posts})
+
+def post_new(request):
+    form = PostForm()
+    return render(request, 'blog/post_new.html', {'form': form})
+
+def home(request):
+    return render(request,'blog/home.html',{})
+
+
 
